@@ -1,0 +1,21 @@
+{
+  "name": "@djhojd/hello-world-rollup-typescript",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup --config",
+    "watch": "rollup --config --watch"
+  },
+  "author": "Claudiu Hojda <djhojd@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.7.4",
+    "rollup-plugin-typescript2": "^0.20.1",
+    "typescript": "^3.3.4000"
+  }
+}
